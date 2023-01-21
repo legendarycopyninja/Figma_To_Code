@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#2D2E36 ;
+    font-family: 'Poppins' ,sans-serif;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+img {
+    width: 100%;
+    border-radius: .8rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    background-color: #383A45;
+    margin: 1rem;
+    padding: .8rem;
+    max-width: 370px;
+    border-radius: .5rem;
+}
+
+p.title {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+p.description {
+    color: #8D91A6;
+    font-size: .8rem;
+}
+
+.link {
+    width: 2rem;
+}
+
+@media only screen and (min-width: 550px) {
+    
+    .container {
+        max-width: 750px;
+
+    }
+    
+    .sneakers {
+        /* width: 11rem; */
+        margin-right: 1rem;
+    }
+    
+    a {
+        display: flex;
+    }
+    
+}
