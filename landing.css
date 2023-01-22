@@ -9,16 +9,17 @@ body {
     height: 100vh;
 }
 
-.container {
+
+.head {
     margin: 0;
     padding: 0;
+    background: url('images/bg.jpg');
+    width: 510px;
+    height: 576px;
 }
 
-.container1 {
-    margin: 0;
-    padding: 0;
-background: url('images/bg.jpg');
-width: 510px;
-height: 576px;
+p.title {
+    margin: 0px;
+    padding: 10px;
 }
 
